@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- website by PAt McGrath, IS 117 final project -->
+<html lang="en">
+<head>
+
+    <title>Pat McGrath - IS117 Final</title>
+
+    <!-- get some roboto up in here -->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+    </style>
+
+    <!-- Bootstrap main css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--my css-->
+    <link href="css/patCustom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar. used inverse and fixed top to prevent gaps on the page-->
+    <!-- role="navigation" -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+        <div class="container">
+            <div class="navbar-header"> <!-- content for the nav bar -->
+                <!-- "company" text in the navbar -->
+                <a class="navbar-brand" href="index.html">IS117</a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- end navbar-->
+    </nav>
+<!-- maximum efffect -->
+	<div class="jumbotron feature">
+		<div class="container">
+
+			<h1><span></span>How you doin?</h1>
+			<p>Talk to us.</p>
+
+		</div>
+	</div>
+
+    <!-- under the main head -->
+    <div class="container">
+
+      <form id='contactForm' method='post' action='' >
+
+          <p>Name:<br><input type='text' name='Name' />
+            </p>
+          <p>Email:<br><input type='text' name='Email' />
+            </p>
+          <p>Message:<br> <textarea name="message" rows="10" cols="50"></textarea>
+              </p>
+          <p><input type='submit' name='Submit' value='Send to /dev/null' />
+          </p>
+          </form>
+
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!-- IE10 viewport bug workaround -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+	<!-- Placeholder Images -->
+	<script src="js/holder.min.js"></script>
+
+</body>
+
+</html>

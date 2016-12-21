@@ -1,0 +1,42 @@
+body {
+	padding-top: 50px;
+	color: #959595; /* 959595 */
+	min-width: 960px;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+
+.robotoFontSans {
+	font-family: 'Roboto', sans-serif;
+}
+
+.robotoFontSer {
+	font-family: 'Roboto Slab', serif;
+}
+
+.feature {
+	background-color: #43757F;
+	font-family: 'Roboto', sans-serif;
+	color: #2F2F2F;
+	}
+
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: goldenrod;
+    color: black;
+}
+
+.footer-blurb-item {
+    padding: 30px;
+    }
+
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+}
